@@ -1,0 +1,107 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header styles */
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%; /* Make it round */
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 5px solid #fff; /* Add a white border */
+    animation: neon 1.5s ease-in-out infinite alternate; /* Apply neon animation */
+}
+
+/* Neon glow animation */
+@keyframes neon {
+    0% {
+        box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff; /* Initial glow */
+    }
+    100% {
+        box-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 60px #0ff; /* Stronger glow */
+    }
+}
+
+/* Section styles */
+.section {
+    background-color: #000;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5); /* Add a neon glow shadow */
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #0ff; /* Neon text color */
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 10px;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styles */
+li {
+    padding-left: 20px;
+    position: relative;
+}
+
+/* Add custom bullet points */
+li::before {
+    content: "•";
+    color: #0ff; /* Neon bullet color */
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Link styles */
+a {
+    color: #0ff; /* Neon link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+}
+
+p, ul {
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    color: #2c3e50;
+}
